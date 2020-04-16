@@ -15,7 +15,7 @@ canvas.height = CANVAS_SIZE;
 
 // 이미지 저장 시, 기본 bg 색을 white로 지정
 ctx.fillStyle = "white";
-ctx.fillRect = (0, 0, canvas.width, canvas.height);
+ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 ctx.strokeStyle = INITIAL_COLOR; // Color or style to use for the lines around shapes
 ctx.fillStyle = INITIAL_COLOR;
